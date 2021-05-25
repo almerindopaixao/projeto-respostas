@@ -6,9 +6,10 @@ class Resposta extends StatelessWidget {
 
   Resposta(this._texto, this._quandoSelecionado);
 
+  @override
   Widget build(BuildContext context) {
     return Container(
-      margin: EdgeInsets.fromLTRB(10, 0, 10, 0),
+      margin: EdgeInsets.fromLTRB(20, 0, 20, 0),
       width: double.infinity,
       child: ElevatedButton(
         style: ButtonStyle(
